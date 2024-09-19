@@ -1,0 +1,85 @@
+.Fotter_Comp
+{
+    border-top: 4px solid #FEE715;
+    background-color: #FEE715;
+    /* color: #FEE715; */
+    color:  #101820;
+    font-weight: bolder;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.Social_Media_Links
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+.Social_Media_Links img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid #101820;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    padding: 4px;
+    
+}
+
+.Reserve
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+b{
+  font-size: large;
+}
+
+@media (max-width: 768px) {
+    .Fotter_Comp {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .Social_Media_Links {
+      flex-direction: row;
+      gap: 5px;
+      margin-bottom: 10px;
+    }
+  
+    .Social_Media_Links img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .Reserve {
+      font-size: 0.9em;
+    }
+  
+    .Reserve p {
+      margin: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Fotter_Comp {
+      padding: 5px;
+    }
+  
+    .Social_Media_Links img {
+      width: 25px;
+      height: 25px;
+    }
+  
+    .Reserve {
+      font-size: 0.8em;
+    }
+  }
