@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './Nav_Bar/Home';
 import Movies from './Nav_Bar/Movies';
 import About from './Nav_Bar/About';
@@ -12,7 +12,7 @@ import Error from './Fotter/Error';
 const AllHeader = () => {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <div>
           <Header />
           <Routes>
@@ -26,7 +26,7 @@ const AllHeader = () => {
           </Routes>
           
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 };
